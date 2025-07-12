@@ -1,0 +1,19 @@
+---
+alwaysApply: true
+
+1. Create tests for new and updated features using the appropriate tools:
+   - Use **pnpm** as the package manager.
+   - Use **Vitest** for unit tests, testing utility functions, and hooks.
+   - For component tests, use **React Testing Library**.
+   - For end-to-end (E2E) tests, use **Playwright**.
+   - Tests should reside in a `__tests__` folder alongside the code they test.
+   - Each feature must include:
+     - At least 1 test for expected behavior
+     - 1 edge case test
+     - 1 failure case test
+   - Mock API calls properly using **MSW** during integration tests.
+
+2. Always use industry best practices.
+
+3. Always use security best practices.
+---
